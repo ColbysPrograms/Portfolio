@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colby Cox's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-circle-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="#objective">Objective</a></li>
+                    <li><a href="Resume.pdf" target="_blank">Resume</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="title">
+            <h1>Colby Cox</h1>
+            <p>Junior Software Developer</p>
+        </div>
+    </section>
+    <section class="body">
+        <div class="objective" id="objective">
+            <h1>Objective</h1>
+            <p>Further practice and hands-on experience with the disciplines I have learned while working for a reputable company</p>
+        </div>
+        <div class="projects" id="projects">
+            <h1>Projects</h1>
+            <div class="grid">
+                <div class="unit">
+                    <h2>This website</h2>
+                    <p>I made this website to teach myself HTML, CSS, and Javascript.</p>
+                </div>
+                <div class="unit">
+                    <h2>Regression Analysis</h2>
+                    <img src="wheat.png" alt="A pairwise graph of wheat production, yield, and undernourishment">
+                    <div class="layer">
+                        <p>I used regression analysis to show the linear relationship between crops grown and undernourishment for several regions of the world.</p>
+                    </div>
+                </div>
+                <div class="unit">
+                    <h2>Monty Hall Problem</h2>
+                    <img src="switch.png" alt="A line graph showing how the probability when switching doors changes over 1000 simulations">
+                    <div class="layer">
+                        <p>I and a team member generically proved the Monty Hall Problem both mathematically and by running it through a simulation.</p>
+                    </div>
+                </div>
+                <div class="unit">
+                    <h2>Multivariate Analysis</h2>
+                    <img src="" alt="">
+                    <div class="layer">
+                        <p>I and a team member used K-Means clustering and Multidimensional Scaling to prove that age, income, sex, and ethnicity impacted voting tendencies</p>
+                    </div>
+                </div>
+                <div class="unit">
+                    <h2>Project 5</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia molestias voluptatum libero culpa sed praesentium! Tempora dignissimos, corrupti quae cumque expedita consequatur nostrum voluptatibus nam obcaecati laborum totam odio quia?</p>
+                </div>
+                <div class="unit">
+                    <h2>Project 6</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem quasi deserunt dicta minima obcaecati suscipit magnam ab nam sapiente cupiditate beatae odit ipsum similique rerum quae consequuntur, sequi sunt? Accusamus.</p>
+                </div>
+            </div>
+        </div>
+        <div class="about" id="about">
+            <h1>About Me</h1>
+            <p></p>
+        </div>
+        <div class="contact" id="contact">
+            <h1>Contact</h1>
+            <p>You can reach me at:</p>
+            <ul>
+                <li><a href="mailto:colby.cox2020@gmail.com">My Email: colby.cox2020@gmail.com</a></li>
+                <li><a href="tel:+1(870)998-5066">My Phone Number: +1(870)998-5066</a></li>
+
+            </ul>
+        </div>
+    </section>
+    <section class="footer">
+        <ul class="icons">
+            <li><a href="https://github.com/WilliamColbyCox" target="_blank"><i class="fa-brands fa-github"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/williamcolbycox/" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+        </ul>
+        <p>Made by Colby Cox</p>
+    </section>
+    <script src="index.js"></script> 
+</body>
+</html>
