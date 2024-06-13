@@ -178,6 +178,7 @@ nav .fa-solid{
     }
 }
 
+/* About */
 
 
 /* footer */
@@ -186,14 +187,13 @@ nav .fa-solid{
     text-align: center;
     padding: 30px 0;
 }
-.footer .icons{
-    display: flex;
-    text-align: center;
-}
-.footer i{
+.footer .fa-brands{
     color: #1E88E5;
     margin: 0 13px;
     cursor: pointer;
     padding: 18px 0;
-    font-size: 20px;
+    font-size: 40px;
+}
+.footer p{
+    margin-top: 20px;
 }
